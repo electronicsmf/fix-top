@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>fix-top</title>
+	<link rel="stylesheet" href="styles.css/fix-top.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<script src="https://use.fontawesome.com/5f0fc0cc0f.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</head>
+<body>
+	<!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars fa-2x"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top"><span class="logo">Ux-</span>Design</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+					<li class="page-scroll">
+					    <a href="#our-services">Our Services</a>
+					</li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="blog.html">Blogin</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+	</nav>
+<!--banner-->
+	<div id="banner">
+		<h2>Web-Design</h2>
+		<h2>Welcome</h2>
+		<h2 id="time"></h2>
+		<script>
+	 function writeIt(){
+        var hour = new Date().getHours();
+        var timeOfDay;
+        if(hour > 7 && hour < 12){
+			document.write("Good Morning");
+		}else if(hour >= 12 && hour < 18){
+			document.write("Good Afternoon");
+		}else{
+			document.write("Good Night");
+		}
+
+	 }
+     document.getElementById("time").onload = writeIt();
+	
+	</script>
+		<a href="#top" class="btn btn-danger btn-lg">Contact-Me</a>
+	</div>
+	<!--banner-ends-->
+<div id="content">
+    <!--services-container-->
+	<section class="our-services">
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-lg-12">
+				    <h2>Our Services</h2>
+			        <hr>
+	            </div>
+			</div>	
+			<div class="row">
+				    <div class="col-md-4 col-xs-4">
+					    <i class="fa fa-html5 fa-4x"></i>
+			            <h2>HTML</h2>
+					</div>
+					<div class="col-md-4 col-xs-4">
+					    <i class="fa fa-css3 fa-4x"></i>
+				        <h2>CSS</h2>
+					</div>
+					<div class="col-md-4 col-xs-4">
+					    <i  class="fa fa-users fa-4x"></i>
+				        <h2>Social-Media</h2>
+					</div>
+		    </div>
+		</div>
+	</section>		   
+	<!--services-container-ends-->
+	<!--about-container-starts-->
+	<section id="about-container">		   
+		<div class="container">	   
+			<div class="row">
+                <div class="col-lg-12">
+                    <h2>About Us</h2>
+                    <hr>
+                    <p>is simply dummy text of the printing and typesetting industry. 
+					    Lorem Ipsum has been the industry's standard is simply dummy text 
+					    of the printing and typesetting industry. Lorem Ipsum has been the 
+					    industry's standard is simply dummy text of the printing and 
+					    typesetting industry. Lorem Ipsum has been the industry's standard
+					</p>					
+			    </div>
+			</div>
+        </div>    						
+	</section>			
+    <section class="portfolio-area">    
+        <div class="container">
+            <div class="row">   
+                <div class="col-lg-12">
+				<h2>My Portfolio</h2>
+				<hr>
+	        </div>
+	        <div class="row" id="gallery">
+	            <div class="col-md-4 col-xs-6 box">
+	                <a href="#"><img src="img-fix-top/website-demo1.jpg" class="img-responsive boxes"></a>
+					<h3>Computer Design</h3>
+					<a href="#top" class="btn btn-danger btn-sm">More Info</a>
+	            </div>
+				<div class="col-md-4 col-xs-6 box">
+	                <a href="#"><img src="img-fix-top/website-demo2.jpg" class="img-responsive boxes"></a>
+					<h3>Interior Design</h3>
+					<a href="#top" class="btn btn-danger btn-sm">More Info</a>
+	            </div>
+				<div class="col-md-4 col-xs-6 box">
+	                <a href="#"><img src="img-fix-top/website-demo3.jpg" class="img-responsive boxes"></a>
+					<h3>Media Design</h3>
+					<a href="#top" class="btn btn-danger btn-sm">More Info</a>
+	            </div>
+				<div class="col-md-4 col-xs-6 box">
+	                <a href="#"><img src="img-fix-top/website-demo4.jpg" class="img-responsive boxes"></a>
+					<h3>Imperial Design</h3>
+					<a href="#top" class="btn btn-danger btn-sm">More info</a>
+	            </div>
+				<div class="col-md-4 col-xs-6 box">
+	                <a href="#"><img src="img-fix-top/website-demo5.jpg" class="img-responsive boxes"></a>
+					<h3>Logo Design</h3>
+					<a href="#top" class="btn btn-danger btn-sm">More Info</a>
+	            </div>
+				<div class="col-md-4 col-xs-6 box">
+	                <a href="#"><img src="img-fix-top/website-demo6.jpg" class="img-responsive boxes"></a>
+					<h3>Technology Design</h3>
+					<a href="#top" class="btn btn-danger btn-sm">More Info</a>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<section id="contact">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-lg-12">
+				    <h2>Contact-Me</h2>
+					<hr>
+	            </div>
+			</div>	
+		    <div class="row" id="contact-area">
+				    <div class="col-md-4 col-xs-4">
+				        <img src="img-fix-top/home-icon.png">
+						<h4>Serving Orlando</h4>
+				    </div>
+					<div class="col-md-4 col-xs-4">
+				        <img src="img-fix-top/home-icon2.png">
+						<h4>863-969-8248</h4>
+				    </div>
+					<div class="col-md-4 col-xs-4">
+				        <img src="img-fix-top/home-icon3.png">
+						<h4>electronicsmf@aol.com</h4>
+				    </div>
+			</div>
+	    </div>
+	</section>
+	<section id="location">
+	      <div class="container">
+	           <div class="row">
+	                <div class="col-lg-12">
+					     <h2>Location</h2>
+						 <hr>
+					</div>
+	           </div>
+			   <div class="row">
+				    <div class="col-lg-12">
+					    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224444.70495248452!2d-81.50883827574293!3d28.48109711612237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e773d8fecdbc77%3A0xac3b2063ca5bf9e!2sOrlando%2C+FL!5e0!3m2!1sen!2sus!4v1490497825484" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+	            </div>
+	      </div>
+	</section>
+</div>	
+       	  <!--Footer-area-->
+		  <footer>
+		      <p>Ux Design, copyright &copy;2017</p>
+		  </footer>	
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>			  
+</body>
+</html>
